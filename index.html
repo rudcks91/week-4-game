@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>week-4-game</title>
-    <link rel="stylesheet" type="text/css" href="assests/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 
@@ -24,7 +24,6 @@
 
     <div class="row">
         <div class="col-2" id="randombox">
-            <span id="randomnumber"></span>
         </div>
 
         <div class="col-1" id="winandlossesbox">
@@ -34,16 +33,25 @@
     </div>
 
     <div class="row" id="imagesbox">
-        Images here
+        <img id="crystal1" src="assets/images/crystal1.jpg">
+        <img id="crystal2" src="assets/images/crystal2.jpg">
+        <img id="crystal3" src="assets/images/crystal3.jpg">
+        <img id="crystal4" src="assets/images/crystal4.jpg">
     </div>
 
     <div class="row col-2" id="yourscore">
         Your total score is:
     </div>
 
-    <div class="row col-2" id="scorebox">
-        <span id="score">0</span>
+    <div class="row col-2" id="scorebox">0
     </div>
+
+
+        <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Script -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </body>
 </html>
